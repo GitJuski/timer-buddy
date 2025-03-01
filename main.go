@@ -31,16 +31,6 @@ type Timer struct {
   Seconds int
 }
 
-// var asciiArt = []string{">.<", "-.-", "^o^"}
-//var asciiArt = []string {`
-// /\_/\ 
-//( O.O )
-// <   > 
-//`, `
-// /\_/\ 
-//( >.< )
-// >   < 
-//`}
 // My ascii masterpiece (Create your own ascii buddy. It's a slice so you can add different faces)
 var asciiArt = []string {`
  ()___()
