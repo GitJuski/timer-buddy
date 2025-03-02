@@ -31,19 +31,35 @@ type Timer struct {
   Seconds int
 }
 
-// My ascii masterpiece (Create your own ascii buddy. It's a slice so you can add different faces)
+// My ascii masterpiece a robot of some sort(Create your own ascii buddy. It's a slice so you can add different faces)
 var asciiArt = []string {`
- ()___()
- /     \
-| O  O |
-|  ~   |
- \____/ 
+     ###########      
+    ##._.###._.##     
+   ##/ o \#/ o \##    
+  ###\___/#\___/###   
+  #################   
+   ######   ######    
+    #############     
+     ###########      
+       /*****\        
+      @_______@       
+     /|*******|\      
+    / |_______| \     
+       _/  \_         
 `, `
- ()___()
- /     \
-| >  < |
-|  .   |
- \____/ 
+     ###########      
+    ##._.###._.##     
+   ##/ > \#/ < \##    
+  ###\___/#\___/###   
+  #################   
+   #####\___/#####    
+    #############     
+     ###########      
+    \  /*****\  /     
+     \@_______@/      
+      |*******|       
+      |_______|       
+        |  |          
 `}
 
 // Stopwatch functionality. Stop it with Ctrl+C since there is no stopping functionality atm. There is a Ctrl+C handling in other goroutine
