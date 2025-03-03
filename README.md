@@ -4,6 +4,14 @@ I wanted to try and learn a bit of Go, so I created this prototype that has a st
 
 There is better ways of counting time. I haven't really tested this with longer timeframes but I'm sure that there will be time drift. This is purely done for fun/education purposes and I wouldn't use this if time precision is in a key role. I will test this some time to see how much time drift is to be expected.
 
+I added an option to save times in SQLITE.
+
+# Used third party dependencies
+
+- github.com/mattn/go-sqlite3 (https://github.com/mattn/go-sqlite3)
+
+More info in the LICENSE-3rd-party.md file
+
 # Demo
 
 ![demo.gif](images/demo.gif)
