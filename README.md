@@ -6,6 +6,8 @@ There is better ways of counting time. I haven't really tested this with longer 
 
 I added an option to save times in SQLITE.
 
+Added an interactive mode using an old C code and integrating it to the GO code with CGO.
+
 # Used third party dependencies
 
 - github.com/mattn/go-sqlite3 (https://github.com/mattn/go-sqlite3)

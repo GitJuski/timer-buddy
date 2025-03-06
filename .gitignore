@@ -1,1 +1,4 @@
+# Ignore the database file
 *.db
+# Ignore the compiled
+timer-buddy
